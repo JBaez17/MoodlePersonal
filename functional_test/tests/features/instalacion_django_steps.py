@@ -3,6 +3,7 @@ from lettuce import step, world
 from selenium import webdriver
 
 
+# scenario 1
 @step(u'When Oprimo la tecla Enter')
 def when_oprimo_la_tecla_enter(step):
     assert True
