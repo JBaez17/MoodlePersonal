@@ -78,10 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'moodle',
-        'USER': 'moodle',
-        'PASSWORD': 'moodle',
-        'PORT': '3306',
-        'HOST': '127.0.0.1',
+        'USER': 'usermoodle',
+        'PASSWORD': 'usermoodle',
+        'HOST': 'localhost',
+        'PORT': '3360',
     }
 }
 
